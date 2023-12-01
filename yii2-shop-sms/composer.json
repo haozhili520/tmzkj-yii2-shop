@@ -1,0 +1,22 @@
+{
+    "name": "tmzkj-yii2-shop/yii2-shop-sms",
+    "description": "Third-party SMS gateway service integrations for Yii2.",
+    "type": "library",
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "~2.0.5",
+        "qcloudsms/qcloudsms_php": "^0.1.2",
+        "flc/alidayu": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "tmzkj-yii2-shop",
+            "email": "469628895@qq.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "Tmzkj\\Sms\\": "lib/"
+        }
+    }
+}
